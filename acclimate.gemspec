@@ -6,10 +6,10 @@ require 'acclimate/version'
 Gem::Specification.new do |spec|
   spec.name          = "acclimate"
   spec.version       = Acclimate::VERSION
-  spec.authors       = ["Jason Harrelson"]
+  spec.authors       = ["C. Jason Harrelson (midas )"]
   spec.email         = ["jason@lookforwardenterprises.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{A Cli building toolkit.}
+  spec.description   = %q{A Cli building toolkit.  See README for more details.}
   spec.homepage      = ""
   spec.license       = "MIT"
 
@@ -19,5 +19,6 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "bundler", "~> 1.5"
+  spec.add_development_dependency "gem-dandy"
   spec.add_development_dependency "rake"
 end
