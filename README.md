@@ -1,6 +1,6 @@
 # Acclimate
 
-A CLI building toolkit
+A CLI building toolkit.  Pronounced A CLI Mate.
 
 
 ## Installation
@@ -16,6 +16,7 @@ And then execute:
 Or install it yourself as:
 
     $ gem install acclimate
+
 
 ## Usage
 
