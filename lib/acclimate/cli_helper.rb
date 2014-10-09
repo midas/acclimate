@@ -3,6 +3,8 @@ module Acclimate
 
     def self.included( base )
       base.class_eval do
+        include Acclimate::Output
+
         no_commands do
 
           def execute( klass, additional_options={} )
