@@ -20,5 +20,10 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.5"
   spec.add_development_dependency "gem-dandy"
+  spec.add_development_dependency "pry-debugger"
   spec.add_development_dependency "rake"
+
+  spec.add_dependency "hashie"
+  spec.add_dependency "rainbow"
+  spec.add_dependency "thor"
 end

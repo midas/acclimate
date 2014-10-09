@@ -1,5 +1,15 @@
 require "acclimate/version"
+require 'pry-debugger'
+require 'rainbow'
+require 'thor'
 
 module Acclimate
-  # Your code goes here...
+
+  autoload :CliHelper,         'acclimate/cli_helper'
+  autoload :Command,           'acclimate/command'
+  autoload :Configuration,     'acclimate/configuration'
+  autoload :ConfirmationError, 'acclimate/confirmation_error'
+  autoload :Error,             'acclimate/error'
+  autoload :Output,            'acclimate/output'
+
 end
