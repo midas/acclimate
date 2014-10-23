@@ -17,12 +17,16 @@ module Acclimate
 
     attr_reader :options
 
-    def config
-      @config = config_klass.new( options )
-    end
-
     def base_path
       Pathname.new( Dir.pwd )
+    end
+
+    def config
+      @config = config_klass.load( options )
+    end
+
+    def config_filepath
+      config_klass.config_filepath
     end
 
     def config_klass
