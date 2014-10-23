@@ -1,5 +1,4 @@
 require "acclimate/version"
-require 'pry-debugger'
 require 'rainbow'
 require 'thor'
 
