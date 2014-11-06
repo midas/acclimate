@@ -3,7 +3,7 @@ require 'pathname'
 module Acclimate
   class Command
 
-    include Acclimate::Output
+    include Acclimate::ShellHelper
 
     def initialize( options )
       @options = options
