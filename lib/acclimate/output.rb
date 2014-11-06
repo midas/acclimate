@@ -39,7 +39,7 @@ module Acclimate
       write "#{msg}... ", color
       block.call
       say_ok
-    rescue ConfirmationError => e
+    rescue Acclimate::ConfirmationError => e
       say_error
       say_stderr( e.message, :red )
       e.finish
