@@ -1,3 +1,5 @@
+require 'command_line_reporter'
+
 module Acclimate
   module ShellHelper
 
