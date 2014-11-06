@@ -23,6 +23,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "pry-debugger"
   spec.add_development_dependency "rake"
 
+  spec.add_dependency "autoloaded"
   spec.add_dependency "hashie"
   spec.add_dependency "rainbow"
   spec.add_dependency "thor"
