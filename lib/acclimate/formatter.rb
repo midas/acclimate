@@ -3,7 +3,7 @@ require 'command_line_reporter'
 module Acclimate
   class Formatter
 
-    extend Autoloaded
+    Autoloaded.module { }
 
     include CommandLineReporter
 
